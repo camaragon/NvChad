@@ -8,7 +8,10 @@ opt.expandtab = false
 opt.autoindent = true
 opt.smartindent = true
 opt.relativenumber = true
-
+opt.list = true
+-- opt.listchars:append "space:⋅"
+-- opt.listchars:append "eol:↴"
+--
 vim.diagnostic.config { underline = false }
 -- vim.cmd [[
 -- 	if exists("g:neovide")
